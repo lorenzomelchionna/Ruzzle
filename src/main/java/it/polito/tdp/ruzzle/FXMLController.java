@@ -123,7 +123,13 @@ public class FXMLController {
 
     @FXML
     void handleReset(ActionEvent event) {
+    	
     	model.reset();
+    	
+    	for(Button b : letters.values()) {
+    		b.setDefaultButton(false);
+    	}
+    	
     }
     
     @FXML
