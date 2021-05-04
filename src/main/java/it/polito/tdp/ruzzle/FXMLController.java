@@ -130,6 +130,8 @@ public class FXMLController {
     		b.setDefaultButton(false);
     	}
     	
+    	txtResult.clear();
+    	
     }
     
     @FXML
